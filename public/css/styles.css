@@ -1,0 +1,36 @@
+*{
+    font-family: 'Roboto';
+}
+.teste{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image:url("../img/loginAndRegister.png");
+    height: 100vh;
+}
+.quadrado {
+    display: inline-flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 5%;
+    border: 1px solid #000000;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.quadrado-login{
+    background-color: steelblue;
+}
+
+.quadrado-register{
+    background-color: rgb(31,31,59);
+}
+
+.quadrado-dashboard{
+    background-color: midnightblue;
+}
